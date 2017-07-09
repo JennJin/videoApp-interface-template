@@ -1,0 +1,21 @@
+{
+  "name": "videoApp Interface Sample",
+  "version": "1.0.0",
+  "description": "Example on how to integrate Videos to an Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "template",
+    "sample"
+  ],
+  "author": "Amazon.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.11",
+    "voice-insights-sdk": "^1.2.2"
+  }
+}

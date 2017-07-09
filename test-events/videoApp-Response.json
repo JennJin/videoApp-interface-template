@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "SSML",
+      "ssml": "<speak>  </speak>"
+    },
+    "directives": [
+      {
+        "type": "VideoApp.Launch",
+        "videoItem": {
+          "source": "https://s3.amazonaws.com/ask-video-samples/Serenity+-+HD+DVD+Trailer.mp4",
+          "metadata": {
+            "title": "<Video Title>",
+            "subtitle": "<Video Subtitle>"
+          }
+        }
+      }
+    ]
+  },
+  "sessionAttributes": {}
+}

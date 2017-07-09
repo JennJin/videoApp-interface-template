@@ -1,0 +1,50 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.[Unique Value Here]",
+        "application": {
+            "applicationId": "amzn1.ask.skill.[Unique Value Here]"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.[Unique Value Here]"
+        }
+    },
+    "context": {
+        "AudioPlayer": {
+            "playerActivity": "STOPPED"
+        },
+        "Display": {},
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.[Unique Value Here]"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.[Unique Value Here]"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.[Unique Value Here]",
+                "supportedInterfaces": {
+                    "AudioPlayer": {},
+                    "Display": {
+                        "templateVersion": "1.0",
+                        "markupVersion": "1.0"
+                    },
+                    "VideoApp": {},
+                    "VideoPlayer": {}
+                }
+            },
+            "apiEndpoint": "https://api.amazonalexa.com"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.[Unique Value Here]",
+        "timestamp": "2017-07-05T15:14:34Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "playVideo",
+            "confirmationStatus": "NONE"
+        }
+    }
+}
